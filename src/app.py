@@ -87,7 +87,7 @@ def main():
 
 
     # Desplegable para el numero de adultos
-    meal = st.selectbox("Tipo de comida", ["HB", "BB", "SC", "FB"])
+    meal = st.selectbox("Tipo de comida", ["HB - Desayuno y otra comida", "BB - Desayuno", "SC - Sin paquete de comida", "FB-Desayuno, almuerzo y cenaB"])
 
     # Calcular la duración en días
     duration = (end_date - start_date).days
